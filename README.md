@@ -32,7 +32,7 @@ This project demonstrates how to **deploy a real-world web application on AWS** 
 - **CIDR block:** `10.0.0.0/16`
 - **DNS Hostnames:** Enabled 
 
-![](./img3/vpc.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/vpc.png?raw=true)
 
 ### 2.2 Create Subnets
 
@@ -51,10 +51,10 @@ This project demonstrates how to **deploy a real-world web application on AWS** 
 - **Name:** `movie-internet-Gateway`
 - **Attach** to `movie-tickets-vpc`
 
-![](./img3/internet.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/internet.png?raw=true)
 
 ### 2.4 Create Route Tables
-![](./img3/Route.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/Route.png?raw=true)
 
 #### a. Public Route Table
 
@@ -63,7 +63,7 @@ This project demonstrates how to **deploy a real-world web application on AWS** 
 - **Add Route:**  
   `0.0.0.0/0` ➜ Internet Gateway
 
-![](./img3/mpubt.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/mpubt.png?raw=true)
 
 #### b. Private Route Table
 
@@ -71,7 +71,7 @@ This project demonstrates how to **deploy a real-world web application on AWS** 
 - **Associate with:** `Private-App`, `Private-DB`
 - No external route initially.
 
-![](./img3/mpvt.png)
+![]()
 
 ## 🌐 3. NAT Gateway Setup
 
