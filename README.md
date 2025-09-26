@@ -71,7 +71,7 @@ This project demonstrates how to **deploy a real-world web application on AWS** 
 - **Associate with:** `Private-App`, `Private-DB`
 - No external route initially.
 
-![]()
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/mpvt.png?raw=true)
 
 ## 🌐 3. NAT Gateway Setup
 
@@ -113,7 +113,7 @@ Add a route to direct outbound traffic from private subnets to the NAT Gateway.
 ### 🗺️ NAT Gateway Architecture
 Below is a visual representation of the NAT Gateway setup:
 
-![](./img3/mnat.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/mnat.png?raw=true)
 
 ---
 
@@ -243,7 +243,7 @@ Each instance will be placed in the correct **subnet** with proper configuration
 ### 📷 Architecture Visualization
 Below is the snapshot of how instances are deployed:
 
-![](./img3/Instances.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/instances.png?raw=true)
 
 ---
 
@@ -259,7 +259,7 @@ Below is the snapshot of how instances are deployed:
 |-----------|---------------|----------------|----------|------------|--------------|
 | database  |               | private subnet | t2.micro | 22, 3306   | end point    |
 
-![](./img3/database.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/database.png?raw=true)
 
 
 ## 🔑 6. Copy Private Key to Frontend Server
@@ -309,8 +309,8 @@ Just follow the steps below:
 
 > This ensures **only the application layer** can connect to the database.
 
-![](./img3/datatab.png)
-![](./img3/datacom.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/datatab.png?raw=true)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/datacom.png?raw=true)
 
 ---
 
@@ -372,7 +372,7 @@ server {
            }
 }
 ```
-![](./img3/nginx.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/nginx.png?raw=true)
 ### Restart Nginx
 
 ```bash
@@ -387,11 +387,11 @@ Visit:
 
 **http\://frontend-public-ip**
 
-![](./img3/1.png)
-![](./img3/2.png)
-![](./img3/3.png)
-![](./img3/4.png)
-![](./img3/datacom.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/1.png?raw=true)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/2.png?raw=true)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/3.png?raw=true)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/4.png?raw=true)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/datacom.png?raw=true)
 
 # 🎬 Random Movie Ticket Booking System (AWS 3-Tier Architecture)
 
