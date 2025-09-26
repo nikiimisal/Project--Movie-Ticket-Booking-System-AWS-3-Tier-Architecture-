@@ -15,7 +15,7 @@ This project demonstrates how to **deploy a real-world web application on AWS** 
 ---
 
 ## 1. Architecture Overview
-![](./img3/final.png)
+![](https://github.com/nikiimisal/Project--Movie-Ticket-Booking-System-AWS-3-Tier-Architecture-/blob/main/img/1756991929423.jpg?raw=true)
 
 | 🏷️ **Tier** | 🎯 **Purpose**           | 🌐 **Subnet Type**   | 📝 **Language / Stack**       | ⚙️ **EC2 Role**               |
 |-------------|--------------------------|----------------------|--------------------------------|--------------------------------|
